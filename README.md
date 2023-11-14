@@ -40,3 +40,39 @@ Kemudian kita menambahkan teks dan card. Di awali dengan define tipe pada list d
 
  Referensi :
  - https://www.kawankoding.id/flutter-stateless-vs-stateful/
+
+
+Readme Tugas 8 : Flutter Navigation, Layouts, Forms, and Input Elements
+
+1. Jelaskan perbedaan antara Navigator.push() dan Navigator.pushReplacement(), disertai dengan contoh mengenai penggunaan kedua metode tersebut yang tepat!
+
+Navigator.push() : Digunakan untuk menavigasi ke halaman baru sambil mempertahankan halaman saat ini ditumpukan navigasi.
+
+Navigator.pushReplacement() : Digunakan untuk menavigasi ek halaman baru, tetapi halaman saat ini dihapus dari tumpukan navigasi.
+
+2. Jelaskan masing-masing layout widget pada Flutter dan konteks penggunaannya masing-masing!
+
+
+3. Sebutkan apa saja elemen input pada form yang kamu pakai pada tugas kali ini dan jelaskan mengapa kamu menggunakan elemen input tersebut!
+
+Product Name : Product name menyimpan nama-nama sepatu yang akan disimpan. 
+
+Amount of Pairs: Amount of Pairs menyimpan jumlah pasang sepatu tersebut yang disimpan.
+
+Description : Description menyimpan detail atau penjelasan terkait sepatu tersebut.
+
+Elemen input di atas dipakai karena melengkapi aplikasi tersebut sebagai aplikasi inventory penyimpanan sneakers
+
+
+4. Bagaimana penerapan clean architecture pada aplikasi Flutter?
+
+Penerapan Clean Architecture pada Flutter melibatkan pemisahan kode program menjadi beberapa lapisan, sebagai berikut:
+
+Data & Platform Layer: Merupakan lapisan terluar yang terdiri dari kode sumber data seperti Rest API, akses ke database lokal, Firebase, maupun sumber lainnya.
+
+Presentation Layer: Terdiri dari kode untuk mengakses data aplikasi dari repositori. Terdapat juga kode untuk manajemen state seperti providers, BLoC, dan lainnya.
+
+Domain Layer: Merupakan lapisan terdalam yang berisikan kode untuk logika bisnis aplikasi seperti entitas dan use case.
+
+
+5. Jelaskan bagaimana cara kamu mengimplementasikan checklist di atas secara step-by-step! (bukan hanya sekadar mengikuti tutorial)
