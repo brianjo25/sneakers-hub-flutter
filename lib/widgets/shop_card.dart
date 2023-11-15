@@ -4,9 +4,9 @@ import 'package:sneakers_hub/screens/shoplist_form.dart';
 class ShopItem {
   final String name;
   final IconData icon;
-  final Color buttonColor;
+  final Color backgroundcolor;
 
-  ShopItem(this.name, this.icon, this.buttonColor);
+  ShopItem(this.name, this.icon, this.backgroundcolor);
 }
 
 class ShopCard extends StatelessWidget {
@@ -17,7 +17,7 @@ class ShopCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: Colors.indigo,
+      color: item.backgroundcolor,
       child: InkWell(
         // Area responsive terhadap sentuhan
         onTap: () {

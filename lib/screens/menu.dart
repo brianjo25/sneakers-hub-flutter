@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:sneakers_hub/widgets/left_drawer.dart';
 import 'package:sneakers_hub/widgets/shop_card.dart';
-import 'package:sneakers_hub/screens/shoplist_form.dart';
+
 
 class MyHomePage extends StatelessWidget {
   MyHomePage({Key? key}) : super(key: key);
 
   final List<ShopItem> items = [
-    ShopItem("Lihat Produk", Icons.checklist, Colors.red),
-    ShopItem("Tambah Produk", Icons.add_shopping_cart,Colors.white),
+    ShopItem("Lihat Produk", Icons.checklist, const Color.fromARGB(255, 210, 33, 20)),
+    ShopItem("Tambah Produk", Icons.add_shopping_cart,Color.fromARGB(255, 39, 36, 212)),
     ShopItem("Logout", Icons.logout,Colors.black),
   ];
 

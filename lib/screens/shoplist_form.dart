@@ -23,7 +23,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
             'Form Tambah Produk',
           ),
         ),
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.black,
         foregroundColor: Colors.white,
       ),
       drawer: const LeftDrawer(), // Tambahkan drawer yang sudah dibuat di sini
@@ -111,7 +111,7 @@ class _ShopFormPageState extends State<ShopFormPage> {
                   padding: const EdgeInsets.all(8.0),
                   child: ElevatedButton(
                     style: ButtonStyle(
-                      backgroundColor: MaterialStateProperty.all(Colors.indigo),
+                      backgroundColor: MaterialStateProperty.all(Colors.black),
                     ),
                     onPressed: () {
                       if (_formKey.currentState!.validate()) {
